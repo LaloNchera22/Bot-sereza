@@ -10,7 +10,7 @@ LI_URN = os.environ["LINKEDIN_URN"] # urn:li:person:uECngsyLbP
 
 # 1. Generar contenido con Gemini
 genai.configure(api_key=GEMINI_KEY)
-model = genai.GenerativeModel('gemini-1.5-flash')
+model = genai.GenerativeModel('gemini-2.5-flash')
 
 temas = [
     "innovación en Healthtech y telemedicina",
