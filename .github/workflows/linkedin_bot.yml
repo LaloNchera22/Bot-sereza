@@ -2,7 +2,7 @@ name: LinkedIn AI Bot Sereza
 
 on:
   schedule:
-    - cron: '0 */6 * * *' # Ejecuta cada 6 horas
+    - cron: '0 */4 * * *' # Ejecuta cada 6 horas
   workflow_dispatch: # Permite ejecutarlo manualmente
 
 jobs:
